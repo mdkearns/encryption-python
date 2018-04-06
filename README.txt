@@ -14,7 +14,8 @@ The encrypt.py program can be used to encrypt and decrypt both files and strings
 	- message is the user-supplied string to be encrypted.
 	- public_key is the user-supplied public key to be used to encrypt the message.
 	
-	Users with access to the corresponding decryptor can decrypt messages encrypted with this public key.
+	Users with access to the corresponding decryptor can decrypt messages encrypted with this 
+	public key.
 	
 2. Using enc_file(file_name, sym_key) and decrypt_file(file_name, sym_key):
 
