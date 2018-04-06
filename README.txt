@@ -25,10 +25,10 @@ The encrypt.py program can be used to encrypt and decrypt both files and strings
 				
 				python encrypt.py file_to_be_encrypted
 				
-			This results in the creation of two files: file_to_be_encrypted.enc and DECfile_to_be_encrypted.
-			file_to_be_encrypted.enc is not human-readable, and its contents will appear to be gibberish to 
-			the human eye. Decrypting this file with the provided symmetric key results in DECfile_to_be_encrypted,
-			which is identical to the original file.
+		This results in the creation of two files: file_to_be_encrypted.enc and DECfile_to_be_encrypted.
+		file_to_be_encrypted.enc is not human-readable, and its contents will appear to be gibberish to 
+		the human eye. Decrypting this file with the provided symmetric key results in DECfile_to_be_encrypted,
+		which is identical to the original file.
 			
 	
 *NOTE: modifications to the main() function are most likely necessary to adapt the program to your specific needs.
